@@ -9,12 +9,12 @@ workflows:
 
     environment:
       groups:
-        - Wem
+        - khelkun
       vars:
-        APP_NAME: "HelloXR"
-        BUNDLE_ID: "com.wemtechnology.helloxr"
-        START_URL: "https://helloxr.app"
-        XCODE_SCHEME: "HelloXR"
+        APP_NAME: "LivelinkWebXR"
+        BUNDLE_ID: "com.3dverse.livelink-webxr"
+        START_URL: "https://samples.livelink.3dverse.com/#/web-xr-ios"
+        XCODE_SCHEME: "LivelinkWebXR"
       xcode: latest
       cocoapods: default
 
